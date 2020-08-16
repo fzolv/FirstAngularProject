@@ -2,7 +2,7 @@
   <table class="table table-striped">
     <thead>
       <tr>
-      <th *ngFor='let column of columns'>{{column}}</th>
+      <th *ngFor='let column of columns'>{{column | headerTransform}}</th>
       </tr>
     </thead>
     <tbody >

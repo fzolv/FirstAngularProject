@@ -6,13 +6,15 @@ import { CmTableComponent } from './components/table/cm-table/cm-table.component
 import { CmListComponent } from './components/list/cm-list/cm-list.component';
 import { ItemListingComponent } from './item-listing/item-listing.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HeaderTransformPipe } from './common/RegExHeaderTransform';
 
 @NgModule({
   declarations: [
     AppComponent,
     CmTableComponent,
     CmListComponent,
-    ItemListingComponent
+    ItemListingComponent,
+    HeaderTransformPipe
   ],
   imports: [
     BrowserModule,
